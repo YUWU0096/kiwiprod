@@ -1,0 +1,199 @@
+html{
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(241.35deg, #27A2DB 11.14%, #061A24 92.33%);
+}
+
+kiwiprod-title {
+    position: absolute;
+    left: 134px;
+    top: 39px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+title-dots {
+    position: absolute;
+    left: 200px;
+    top: 20px;
+
+    font-weight: bold;
+    font-size: 70px;
+    color: white;
+}
+
+subtitle {
+    position: absolute;
+    width: 492px;
+    height: 189px;
+    left: 108px;
+    top: 365px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+
+    color: #FFFFFF;
+}
+
+additional-info{
+    position: absolute;
+    width: 476px;
+    height: 141px;
+    left: 108px;
+    top: 460px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+/* logo */
+hopme{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 110px;
+    line-height: 158.47%;
+    /* or 174px */
+    letter-spacing: -0.075em;
+    color: #000000;
+    text-shadow: 0px 5px 20px #24343C;
+}
+
+/* analysis button */
+analysis-btn{
+    position: absolute;
+    width: 239.2px;
+    height: 59.67px;
+    left: 133px;
+    top: 636px;
+
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding-top: 10px;
+    text-align: center;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 158.47%;
+    color: #27A2DB;
+
+}
+
+dashed-box {
+    position: absolute;
+    width: 300.01px;
+    height: 305.51px;
+    left: 885.99px;
+    top: 516.52px;
+
+    border: 4px dashed rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+}
+
+transparent-box {
+    position: absolute;
+    width: 137.37px;
+    height: 139.89px;
+    left: 912.89px;
+    top: 165.33px;
+
+    background: rgba(255, 255, 255, 0.2);
+}
+
+frontpage-img-people-box {
+    position: absolute;
+    width: 355.44px;
+    height: 332.13px;
+    left: 957.08px;
+    top: 204.46px;
+
+    background: url("../src/img/evangeline-shaw-VLkoOabAxqw-unsplash.png");    
+}
+
+frontpage-img-monitor-box {
+    position: absolute;
+    width: 352.56px;
+    height: 304.72px;
+    left: 769.76px;
+    top: 491.58px;
+
+    background: url("../src/img/austin-distel-gUIJ0YszPig-unsplash.png");
+}
+
+frontpage-small-white-box {
+    position: absolute;
+    width: 131.9px;
+    height: 134.32px;
+    left: 850.45px;
+    top: 377.61px;
+
+    background: rgba(255, 254, 254, 0.95);    
+}
+
+frontpage-eclipse {
+    position: absolute;
+    width: 61.48px;
+    height: 53.17px;
+    left: 914.81px;
+    top: 389.35px;
+    border-radius: 60px / 50px;
+
+    background-color: #C7E9F9;
+    background-image: url("../src/img/upward-arrow.svg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+}
+
+contact-page-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+contact-page-info-text {
+    width: 235px;
+    height: 29.83px; 
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+    line-height: 156%;
+    color: #FFFFFF;
+}
+
+.nav-button {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+    color: white;
+}
