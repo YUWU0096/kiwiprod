@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" type="text/css" href="./css/prototype_stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="./css/prototype_background_stylesheet.css">
     <!-- import montserrat font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-    <kiwiprod-title>Kiwiprod</kiwiprod-title>
-    <title-dots>...</title-dots>
-    <div class="container" style="width:100%; padding-left:5%">
+    <div class="container" style="width:100%">
         <div class="row">
+            <div class="col-sm">
+                <kiwiprod-title style="position:absolute; padding-top: 5%; left:-30%">Kiwiprod</kiwiprod-title>
+                <title-dots style="position:absolute; top:-25%">...</title-dots>
+            </div>
             <!-- actual navigation to be done with MVC managers -->
             <div class="col-md">
                 <a class="nav-button" id="home-btn" onclick="click_nav_btn(this)" style="position:relative; padding-left: 35%; top: 10%;">Home</a>
@@ -41,12 +44,12 @@
                 <contact-page-info-text>Phone: +61 (440) 440 440</contact-page-info-text>
                 </div>
                 <div class="row">
-                <contact-page-info-text>Melbourne, Australia    </contact-page-info-text>
+                <contact-page-info-text>Melbourne, Australia</contact-page-info-text>
                 </div>
             </div>
             <div class="col-lg">
                 <hopme style="position:absolute; z-index: 100;"><span style="color:#25a3dd">hop</span><span style="color:#b1babf">M</span><span style="color:#25a3dd">e</span></hopme>
-                <img class="img-responsive" src="./src/img/laptop-guy.png" style="position:absolute; left:-100px; bottom:-170px; z-index: 0; display: flex; align-items: flex-end; filter: drop-shadow(0px 4px 6px #274D5F); transform: matrix(1.05, 0.04, -0.04, 1.05, 0, 0);">
+                <img class="img-responsive" src="./src/img/laptop-guy.png" style="position:absolute; top:-200px; z-index: -1; display: flex; align-items: flex-end; filter: drop-shadow(0px 4px 6px #274D5F); transform: matrix(1.00, 0.04, -0.04, 1.00, 0, 0);">
             </div>
         </div>
     </div>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/prototype_stylesheet.css">
+    <!-- import montserrat font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body style="background-color:#f4f4f4">
+    <div class="container" style="width:100%; padding-left:5%">
+        <div class="row">
+            <div class="col-sm">
+                <kiwiprod-title style="position:absolute; padding-top: 5%; left:-30%; color:#31a1c6">Kiwiprod</kiwiprod-title>
+                <title-dots style="position:absolute; top:-25%; color:#31a1c6">...</title-dots>
+            </div>
+            <!-- actual navigation to be done with MVC managers -->
+            <div class="col-md">
+                <a class="nav-button" id="home-btn" onclick="click_nav_btn(this)" style="position:relative; padding-left: 35%; top: 10%; color:#31a1c6">Home</a>
+            </div>
+            <div class="col-md">
+                <a class="nav-button" id="how-btn" onclick="click_nav_btn(this)" style="position:relative; top: 10%; color:#31a1c6">How it works</a>
+            </div>
+            <div class="col-md">
+                <a class="nav-button" id="advice-btn" onclick="click_nav_btn(this)" style="position:relative; top: 10%; color:#31a1c6">Get career advice</a>
+            </div>
+            <div class="col-md">
+                <a class="nav-button" id="contact-btn" onclick="click_nav_btn(this)" style="position:relative; top: 10%; color:#31a1c6">Contact support</a>
+            </div>
+        </div>
+        <div class="row" style="margin-top:15%">
+            <div class="col-lg">
+                <p style="text-align: center; font-size: 50px; font-weight: bold; color: #31a1c6; ">Here is how it works</p>
+            </div>
+        </div>
+        <div class="row" style="width:100%">
+            <div class="col-sm">
+                <img src="./src/img/skill_image.png" class="img-fluid" alt="Enter Personal Skill & Education Info:">
+                <p style="text-align:center; font-family: Montserrat; font-weight: bold; font-size: 150%; color:#31a1c6">Step 1</p>
+                <p style="text-align:center; font-family: Montserrat; font-size: 100%">Enter your skill, location, age, and education</p>
+            </div>
+            <div class="col-sm" style="margin: auto;">
+                <img src="./src/img/arrow-left-bl.png" style="" class="img-fluid" alt="Next:">
+            </div>
+            <div class="col-sm">
+                <img src="./src/img/ml_image.png" class="img-fluid" alt="Machine Model Analysis:">
+                <p style="text-align:center; font-family: Montserrat; font-weight: bold; font-size: 150%; color:#31a1c6">Step 2</p>
+                <p style="text-align:center; font-family: Montserrat; font-size: 100%">Let our AI model work its magic and analyse your input</p>
+            </div>
+            <div class="col-sm" style="margin: auto;">
+                <img src="./src/img/arrow-left-bl.png" class="img-fluid" alt="Next:">
+            </div>
+            <div class="col-sm">
+                <img src="./src/img/result_image.png" class="img-fluid" alt="Get Your Results!:">
+                <p style="text-align:center; font-family: Montserrat; font-weight: bold; font-size: 150%; color:#31a1c6">Step 3</p>
+                <p style="text-align:center; font-family: Montserrat; font-size: 100%">Get the result of how you will most likely find a job in Melbourne.</p>
+            </div>
+        </div>
+        <div class="row" style="padding-top:10%; width:100%">
+            <!-- page transition should be handled by MVC managers -->
+            <div class="col-lg" style="width:100%; text-align:center">
+                <a class="analysis-btn" id="start-analyse-btn">Start Analysis</analysis-btn>
+            </div>
+        </div>
+</body>
+    <script type="text/javascript" src="./js/prototype_functions.js"></script>
+</html>

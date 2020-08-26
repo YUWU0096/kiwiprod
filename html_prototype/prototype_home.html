@@ -2,15 +2,18 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="./css/prototype_stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="./css/prototype_background_stylesheet.css">
     <!-- import montserrat font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-    <kiwiprod-title>Kiwiprod</kiwiprod-title>
-    <title-dots>...</title-dots>
     <div class="container" style="width:100%; padding-left:5%">
         <div class="row">
+            <div class="col-sm">
+                <kiwiprod-title style="position:absolute; padding-top: 5%; left:-30%">Kiwiprod</kiwiprod-title>
+                <title-dots style="position:absolute; top:-25%">...</title-dots>
+            </div>
             <!-- actual navigation to be done with MVC managers -->
             <div class="col-md">
                 <a class="nav-button" id="home-btn" onclick="click_nav_btn(this)" style="position:relative; padding-left: 35%; top: 10%;">Home</a>
@@ -30,7 +33,7 @@
     <subtitle>combining social good and AI technologies</subtitle>
     <additional-info>We are here to help you find the job based on your skills and experiences. Insert your skills, education, location and age and our AI model “hopMe” will reccomend you the best employment solution and give you the most relevant advices to your personality.</additional-info>
     <!-- page transition should be handled by MVC managers -->
-    <analysis-btn onclick="location.href='about:blank'">Start Analysis</analysis-btn>
+    <a class="analysis-btn" id="start-analyse-btn" style="position: absolute; width: 239.2px; height: 59.67px; left: 133px; top: 636px;">Start Analysis</analysis-btn>
     <dashed-box></dashed-box>
     <transparent-box></transparent-box>
     <frontpage-img-people-box></frontpage-img-people-box>
